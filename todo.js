@@ -1,7 +1,7 @@
 function addTask() {
     var inputValue = document.getElementById("task").value;
     if (inputValue === '') {
-        alert("You must write something!");
+        alert("Add your todo task!");
         return;
     }
 
