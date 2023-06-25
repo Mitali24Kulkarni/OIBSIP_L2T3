@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Beau+Rivage&family=Courgette&family=Fredoka+One&family=Rubik+Moonrocks&display=swap');
+
+body {
+  font-family: 'Courgette', cursive;
+  background-image: linear-gradient(to right, #1fa0ff, #12dafb, #a7fdcc);
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-right: auto;
+  text-align: center;
+  font-size: larger;
+}
+
+.ipTask{
+    height: 30px;
+    margin-left: 60px;
+    border: 1px solid;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 300px;
+  justify-content: center;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.ip {
+  margin-top: 10px;
+}
+
+#myTasks li,
+#cTasks li {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#myTasks li label,
+#cTasks li label {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#myTasks li button,
+#cTasks li button {
+  padding: 5px 10px;
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#myTasks li button:hover,
+#cTasks li button:hover {
+  background-color: #ff1744;
+}
